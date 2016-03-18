@@ -61,8 +61,8 @@ table.button td a, table.tiny-button td a, table.small-button td a, table.medium
 }
 
 .btn__wrapper {
-  margin-bottom: 20px;
-  margin-top: 18px;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
 }
 
 .btn--primary {
