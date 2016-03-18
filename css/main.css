@@ -1,0 +1,424 @@
+/* Hopscotch Styles */
+
+/* Global Classes*/
+
+body {
+  padding-top: 15px;
+  background-color:#fcfcfc;
+}
+
+.hop-container {
+  background-color:#ffffff;
+  border: 1px #E6E6E6 solid;
+  margin-bottom: 20px !important;
+}
+
+h1 {
+  font-family: "Avenir", "Roboto", sans-serif;
+  color: #ED54A4;
+  font-size: 24px;
+  padding-top: 7px;
+  font-weight: 600;
+  margin-bottom: 16px;
+
+}
+
+h4 {
+  font-size: 14px;
+  color: #a4a4a4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size:16px;
+  line-height: 1.5;
+  color: #6C6C6C;
+  margin-bottom: 16px;
+}
+
+a, a:visited {
+  color: #204265 !important;
+}
+
+
+hr {
+  color: #E6E6E6;
+  background-color: #E6E6E6;
+  height: 1px;
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.line {
+  width: 100%;
+  padding-top: 10px;
+}
+
+table.button td a, table.tiny-button td a, table.small-button td a, table.medium-button td a, table.large-button td a {
+  display: block !important;
+}
+
+.btn__wrapper {
+  margin-bottom: 20px;
+  margin-top: 18px;
+}
+
+.btn--primary {
+  background-color: #ED54A4;
+  padding: 12px 24px;
+  color: #fff !important;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn__inline {
+  margin-bottom: 32px !important;
+}
+
+.btn--primary:hover {
+  color: #fff !important;
+}
+
+.btn--primary:visited {
+  color: #fff !important;
+}
+
+
+.btn__image {
+  float: none;
+  display: inline;
+}
+
+.small-text a, .small-text a:visited {
+  text-decoration: underline;
+}
+
+/*Utility Classes*/
+
+td.wrap, table.columns td.wrap, table.column td.wrap {
+  padding: 10px 24px 0px 24px;
+}
+
+.show-for-small {
+  display: none !important;
+}
+
+.disblock {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.smallish-text {
+  font-size: 12px;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.highlight {
+  color: #204265;
+}
+
+.hidden .wrapper {
+  padding-top: 0;
+}
+
+/*Top Message*/
+
+.top .wrapper .wrap {
+  padding: 6px 0;
+}
+
+.top .wrapper .wrap p {
+  margin-bottom: 0;
+}
+
+/* Header Styles */
+
+.header .wrapper .wrap {
+  padding-bottom: 27px;
+}
+
+.header .wrapper .logo {
+  padding-top: 5px;
+  float: none;
+  display: inline;
+}
+
+/*Cart Summary styles*/
+
+.cart__header {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.cart__product {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.cart__product__image {
+  width: 100%;
+}
+
+.cart__header td.wrap {
+  color: #a4a4a4;
+  padding-bottom: 8px;
+}
+
+.cart table.columns td.qty {
+  padding: 10px 0 8px 10px !important;
+}
+
+.val {
+  text-align: right;
+}
+
+.cart th.last {
+  text-align: right;
+}
+
+.cart table.columns td.img__wrap {
+  padding-bottom: 12px;
+  padding-top: 2px;
+}
+
+.cart table.columns td.wrap.subtotal {
+  padding-left: 0;
+}
+
+.cart.cart__subtotal table.columns td.wrap {
+  padding-right: 18px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.cart table.columns td.wrap.subtotal-header {
+  text-align: right;
+  padding-right: 8px;
+}
+
+.cart.cart__subtotal table.columns td.val {
+  font-weight: bold;
+}
+
+/* Shipping Styles */
+
+.shipping .wrapper .wrap{
+  padding-bottom: 20px;
+}
+
+.shipping td {
+  color: #204265;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.shipping table.columns td.wrap {
+  padding-right: 18px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.shipping__footer table.columns td.wrap {
+  padding-bottom: 20px;
+}
+
+.shipping__header table.columns td.wrap {
+  padding-top: 8px;
+}
+
+/* Contact Module */
+
+table.columns td.contact__header {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.contact__header {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+
+.contact {
+  margin-bottom: 24px !important;
+}
+
+td.contact__first__wrapper {
+  padding-top: 0;
+}
+
+.contact__spacer  {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.contact td.center {
+  padding-bottom: 0;
+}
+
+.appbutton--1 {
+  float: right;
+}
+
+.appbutton--1 img {
+  float: right;
+  margin-right: 8px;
+}
+
+/* Share module styles */
+
+table.container.share {
+  background-color: #204265;
+  margin-bottom: 20px;
+}
+
+.share h4 {
+  color: rgba(255,255,255, 0.8);
+  text-align: center;
+  margin-bottom: 8px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.share p {
+  color: rgba(255,255,255, 0.6);
+  text-align: center;
+}
+
+.share__heart {
+  background-image: url("http://static.hopscotch.in/heart.png");
+  padding: 1px 10px;
+  margin: 0 10px;
+}
+
+/* Split Message Styles */
+
+.split-message p.split {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+/* Product Suggestion Module */
+
+table.container.suggestions {
+  margin-bottom: 24px;
+  margin-top: -24px;
+}
+
+.suggestions__header {
+  text-align: center;
+  color: #a4a4a4;
+  font-size: 12px;
+  padding-bottom: 4px !important;
+}
+
+.suggestions__header div {
+  padding-top: 3px;
+}
+
+table.six.product {
+  background-color: #fff;
+  width: 285px;
+}
+
+.product td {
+  border: 1px solid #e6e6e6;
+}
+
+.product__image  {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+
+.product__name {
+  display: block;
+  font-size: 16px;
+  color: #6c6c6c;
+  padding: 0 12px;
+}
+
+.product__desc {
+  display: block;
+  color: #6c6c6c;
+  padding: 0 12px;
+}
+
+.product__price {
+  display: block;
+  color: #ED54A4;
+  padding: 0 12px;
+}
+
+.cart table.columns td.wrap {
+  padding: 10px 0 8px  24px;
+}
+
+/*  Responsive Styles */
+@media only screen and (max-width: 600px) {
+
+  .cart table.columns td.wrap {
+    padding: 12px 24px 20px  24px !important;
+  }
+
+  .cart table.columns td.desc__wrap {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .cart table.columns td.img__wrap {
+    padding-top: 4px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .shipping table.columns td.wrap {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+
+  .hidden .wrapper {
+    padding-top: 10px !important;
+  }
+
+  h1 {
+    font-size: 24px !important;
+    padding-top: 0 !important;
+  }
+
+  .header .wrapper .wrap {
+    padding-top: 0 !important;
+    padding-bottom: 18px !important;
+  }
+
+  table.columns td.contact__header {
+    padding-top: 0 !important;
+  }
+
+  .contact__header img {
+    padding-left: 35% !important;
+  }
+
+  table[class="body"] .hop-container table.row .logo-alt {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .share__heart {
+    display: none !important;
+  }
+}
